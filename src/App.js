@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import Home from './components/Home/Home';
+import OrderReview from './components/OrderReview/OrderReview';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>New project</h1>
+      <Home></Home>
+      <OrderReview></OrderReview>
     </div>
   );
 }
