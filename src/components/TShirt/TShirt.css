@@ -1,5 +1,8 @@
 .t-shirt{
     height: 380px;
+    margin: 10px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
 }
 .t-shirt img{
     height: 230px;
